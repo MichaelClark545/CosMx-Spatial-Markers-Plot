@@ -1,5 +1,5 @@
 # CosMx-Spatial-Markers-Plot
-This script allows you to put transcript markers out of the probe set in accordance to the tissue morphology. No data standardization or adjustments have been made. This is a good landmark and tissue anatomy identifier tool. All code is written in R and requires the CosMx SMI data to be a Seurat Object. 
+This script allows you to put transcript markers out of the probe set in accordance to the tissue morphology. No data standardization or adjustments have been made. This is a good landmark and tissue anatomy identifier tool. All code is written in R and requires the CosMx SMI data to be a Seurat Object. Additional markers can be added based on the users needs with repeat code of a new marker from lines 23-42 and a new geom point in lines 59-64. 
 
 ```{r}
 #Install and Load Packages
